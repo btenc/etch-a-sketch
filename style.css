@@ -1,23 +1,27 @@
+html{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     gap: 5px;
 }
 
+#grid-container{
+    border: 1px solid black;
+    max-width: 512px;
+    max-height: 512px;
+}
+
 .header{
-    font-size: 64px;
-    margin-bottom: -15px;
-}
-
-.cell{
-    padding: 15px;
-    border: 1px solid black;   
-}
-
-.filled{
-    background-color: black;
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: -30px;
 }
 
 .row{
@@ -30,11 +34,12 @@
 }
 
 .button{
-    font-size: 40px;
+    font-size: 46.5px;
 }
 
-
-
+.rainbow{
+    width: 514px;
+}
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
