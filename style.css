@@ -30,13 +30,16 @@ html{
 
 .buttons{
     display: flex;
-    gap: 5px;
+    gap: 10px;
     width: 515px;
     max-height: 70px;
 }
 
 .button{
     font-size: 46px;
+}
+
+.size{
     flex: 1;
 }
 
