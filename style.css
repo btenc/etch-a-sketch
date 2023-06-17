@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 5px;
 }
 
 .header{
@@ -23,7 +24,14 @@
     display: flex;
 }
 
+.buttons{
+    display: flex;
+    gap: 10px;
+}
 
+.button{
+    font-size: 40px;
+}
 
 
 

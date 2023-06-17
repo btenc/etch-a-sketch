@@ -1,3 +1,7 @@
+const resetB = document.querySelector('.reset');
+
+resetB.addEventListener('click', resetGrid);
+
 function generateGrid(gridSize = 16){
     const container = document.querySelector('#grid-container');
     let rows = [];
@@ -16,5 +20,14 @@ function generateGrid(gridSize = 16){
         } 
     }
 }
+
+function resetGrid(){
+    const cells = document.querySelectorAll('.cell');
+    cells.forEach((cell) => {
+        cell.classList.add('.filled');
+        cell.classList.remove('filled');
+    });
+}
+
 
 generateGrid(16);
