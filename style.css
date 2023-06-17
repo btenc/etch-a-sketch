@@ -30,12 +30,14 @@ html{
 
 .buttons{
     display: flex;
-    gap: 10px;
+    gap: 5px;
     width: 515px;
+    max-height: 70px;
 }
 
 .button{
-    font-size: 46.5px;
+    font-size: 46px;
+    flex: 1;
 }
 
 .rainbow{
